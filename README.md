@@ -14,16 +14,14 @@ Enter the file name of the data set in Alpha and XEQ "DATA". If no file name is 
 
 Upon execution, the program shows labels A-E and labels a-e as successive prompts:
 
-**__
-+ 1:2 C:S >s V
+**__+ 1:2 C:S >s V__**
 
-- FX XG FM P
-__**
+**__- FX XG FM P__**
 
 The meaning of each label:
 
-Label: (prompt) | Description
-----------------|------------
+Label: (prompt)    | Description
+-------------------|------------
 LBL A: + | Adds data (single [X] or double [X&Y] depending on whether flag 1 or 2 is set) to XM file
 LBL B: 1:2 | Toggle single or double data entry (sets flag 1 or 2 respectively)
 LBL C: C:S | Makes file name in Alpha the current data set file or creates the file if file name is not found. Creates the file as a single or double variable set depending on whether flag 1 or 2 is set (remember to ensure the correct flag is set first – by using LBL B). In creating a data set, you must supply the first variable(s) as you would with LBL A to kick off the data set
@@ -43,16 +41,14 @@ This program performs basic statistical analysis, moments, kurtosis, skewness an
 
 Upon execution, the program shows labels A-E and labels a-e as successive prompts:
 
-**__
-+ >I BF Y Bs
+**__+ >I BF Y Bs__**
 
-- .- DATA X \*
-__**
+**__- .- DATA X \*__**
 
 The meaning of each label:
 
-Label: (prompt) | Description
-----------------|------------
+Label: (prompt)    | Description
+-------------------|------------
 LBL A: + | Add one data point (like s+). This is for manual input of data points. Use the “DATA” program above if you want to work with data sets and have the ability to save and restore the sets to XM
 LBL B: >I | Enter the curve index (1-19) from Kolb’s book and get the function and its constants and correlation coefficient displayed. This will now be the selected curve type for showing X or Y (LBL D or d)
 LBL C: BF | Calculate the best curve fit and show the formula for that function along with its constants and correlation coefficient. This will now be the selected curve type for showing X or Y (LBL D or d)
