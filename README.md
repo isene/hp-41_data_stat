@@ -1,11 +1,12 @@
 # hp-41_data_stat
-HP-41: STATistical analysis galore
+
+## HP-41: STATistical analysis galore
 
 This package serves two programs; "DATA" for statistical data entry and management of both single and double variables, and "STAT" that does curve fitting and statistical analysis of single and double variable data sets. The "STAT" program has taken its main part from William Kolb’s book "Curve Fitting for Programmable Calculators" with the added basic statistcs, momentums, kurtosis and skewness of data. You will find Kolb’s excellent book over at hp-41.org.
 
 Note: The small "s" in the description and the program listings signifies the Sigma or Sum symbol on the HP-41.
 
-## DATA
+### DATA
 
 This program simplifies the entry and handling of data sets, storing and retrieving data sets from extended memory (XM)
 
@@ -13,13 +14,16 @@ Enter the file name of the data set in Alpha and XEQ "DATA". If no file name is 
 
 Upon execution, the program shows labels A-E and labels a-e as successive prompts:
 
-"+ 1:2 C:S >s V"
-"- FX XG FM P"
+**__
++ 1:2 C:S >s V
+
+- FX XG FM P
+__**
 
 The meaning of each label:
 
-Label | Description
-------|------------
+Label: (prompt) | Description
+----------------|------------
 LBL A: + | Adds data (single [X] or double [X&Y] depending on whether flag 1 or 2 is set) to XM file
 LBL B: 1:2 | Toggle single or double data entry (sets flag 1 or 2 respectively)
 LBL C: C:S | Makes file name in Alpha the current data set file or creates the file if file name is not found. Creates the file as a single or double variable set depending on whether flag 1 or 2 is set (remember to ensure the correct flag is set first – by using LBL B). In creating a data set, you must supply the first variable(s) as you would with LBL A to kick off the data set
@@ -33,19 +37,22 @@ LBL e: P | Shows Properties of the data set and Prints the data set on the attac
 LBL I: Back to showing the manu for labels A-E and a-e
 LBL I: Shortcut to printing the data set as a graph. When using this shortcut, the Y-MIN and Y-MAX has not been calculated as with LBL e, so you have to enter it manually (Y-MIN [ENTER] Y-MAX)
 
-## STAT
+### STAT
 
 This program performs basic statistical analysis, moments, kurtosis, skewness and curve fitting (the 19 different curve types in Kolb’s book).
 
 Upon execution, the program shows labels A-E and labels a-e as successive prompts:
 
-"+ >I BF Y Bs"
-"- .- DATA X \*"
+**__
++ >I BF Y Bs
+
+- .- DATA X \*
+__**
 
 The meaning of each label:
 
-Label | Description
-------|------------
+Label: (prompt) | Description
+----------------|------------
 LBL A: + | Add one data point (like s+). This is for manual input of data points. Use the “DATA” program above if you want to work with data sets and have the ability to save and restore the sets to XM
 LBL B: >I | Enter the curve index (1-19) from Kolb’s book and get the function and its constants and correlation coefficient displayed. This will now be the selected curve type for showing X or Y (LBL D or d)
 LBL C: BF | Calculate the best curve fit and show the formula for that function along with its constants and correlation coefficient. This will now be the selected curve type for showing X or Y (LBL D or d)
