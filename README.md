@@ -1,5 +1,7 @@
 # hp-41_data_stat
 
+**NOTE:** These programs are part of the DSTAT.ROM (https://github.com/isene/hp-41_DSTAT.ROM). The FOCAL listing can be found in the "src" folder of that project. Any updates and new versions will be found there.
+
 ## HP-41: STATistical analysis galore
 
 This package serves two programs; "DATA" for statistical data entry and management of both single and double variables, and "STAT" that does curve fitting and statistical analysis of single and double variable data sets. The "STAT" program has taken its main part from William Kolb’s book "Curve Fitting for Programmable Calculators" with the added basic statistcs, momentums, kurtosis and skewness of data. You will find Kolb’s excellent book over at hp-41.org.
