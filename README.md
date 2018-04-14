@@ -62,3 +62,6 @@ LBL c: DATA | Goto the “DATA” program (see above)
 LBL d: X | Calculate X from the Y given in the X register for the selected curve type
 LBL e: * | Back to the main menu (prompts showing labels A-E and a-e
 
+## License
+This software is released into the Public Domain.
+
