@@ -1,5 +1,10 @@
 # hp-41_data_stat
 
+[![HP-41](https://img.shields.io/badge/HP--41-Calculator-orange)](https://en.wikipedia.org/wiki/HP-41C)
+[![License](https://img.shields.io/badge/License-Public%20Domain-brightgreen.svg)](https://unlicense.org/)
+[![GitHub stars](https://img.shields.io/github/stars/isene/hp-41_data_stat.svg)](https://github.com/isene/hp-41_data_stat/stargazers)
+[![Stay Amazing](https://img.shields.io/badge/Stay-Amazing-blue.svg)](https://isene.org)
+
 **NOTE:** These programs are part of the DSTAT.ROM (https://github.com/isene/hp-41_DSTAT.ROM). The FOCAL listing can be found in the "src" folder of that project. Any updates and new versions will be found there.
 
 ## HP-41: STATistical analysis galore
