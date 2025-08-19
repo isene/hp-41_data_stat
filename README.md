@@ -6,6 +6,7 @@
 [![Stay Amazing](https://img.shields.io/badge/Stay-Amazing-blue.svg)](https://isene.org)
 
 <img src="img/data_stat_logo.svg" align="left" width="150" height="150" alt="Data Stat Logo">
+<br clear="left"/>
 
 **NOTE:** These programs are part of the DSTAT.ROM (https://github.com/isene/hp-41_DSTAT.ROM). The FOCAL listing can be found in the "src" folder of that project. Any updates and new versions will be found there.
 
